@@ -26,7 +26,7 @@ logger = logging.getLogger('auth')
 # generate partner authentication token
 logger.info('Generating Partner Authentication Token')
 
-req = requests.post('https://auth.tesla.com/oauth2/v3/token',
+req = requests.post('https://auth.tesla.cn/oauth2/v3/token',
     headers={
         'Content-Type': 'application/x-www-form-urlencoded'},
     data={
