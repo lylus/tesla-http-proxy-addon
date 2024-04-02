@@ -73,7 +73,7 @@ def callback():
         return 'Invalid code!', 400
 
     # Exchange code for refresh_token
-    req = requests.post('https://auth.tesla.com/oauth2/v3/token',
+    req = requests.post('https://auth.tesla.cn/oauth2/v3/token',
         headers={
             'Content-Type': 'application/x-www-form-urlencoded'},
         data={
